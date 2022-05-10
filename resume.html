@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Mihan's Website</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/headshot_circ.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b3979c345.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header3">
+       <nav>
+           <a href="index.html"><img src="images/headshot.png" alt=""></a>  
+           <div class="nav-links">
+               <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+               </ul>
+           </div>
+       </nav>
+        <div class="text-box">
+            <h1>Resume</h1>
+            <p>Professional and educational experience</p>
+            <div class="icons">
+                <a id="scroll1" href="javascript:void(0)"><i class="fa-solid fa-angles-down icon-4x"></i></a>
+            </div>
+        </div>
+    </section> 
+    
+    <!About>
+    <section class="resume" id="techlink">   
+        <h2>Education</h2>
+        <div class="resume-row">
+            <img src="images/brighterworld.jpeg" width=75px height=75px>
+            <div class="resume-col">
+                <h3>McMaster University</h3>
+                <h4>Bachelor of Engineering</h4>
+                <h5>Sept 2021 - Apr 2025</h5>
+                <p>Awards: Dean's Honour List <br>Clubs and activities: McMaster Rocketry Team | McMaster Engineering Competition | Ontario Engineering Competition | Deltahacks | CALE delegate </p>
+            </div>
+        </div>
+        <div class="resume-row">
+            <img src="images/tdsb.jpeg" width=75px height=75px>
+            <div class="resume-col">
+                <h3>Sir Wilfrid Laurier CI</h3>
+                <h4>Ontario Secondary School Diploma</h4>
+                <h5>Sept 2017 - Jun 2021</h5>
+                <p>Awards: Honour Roll x 4<br>Clubs and activities: Varsity Baseball | Team Sri Lanka </p>
+            </div>
+        </div>
+        <h2>Professional Experience</h2>
+        <div class="resume-row">
+            <img src="images/uhn.jpeg" width=75px height=75px>
+            <div class="resume-col">
+                <h3>HIS EPIC Command Center Project Support</h3>
+                <h4>University Health Network</h4>
+                <h5>May 2022 - Present</h5>
+                <p>&#8226; Training doctors, nurses, and healthcare workers in using the Epic HIS Software<br>&#8226; Resolving technical issues from hospital staff
+</p>
+            </div>
+        </div>
+        <div class="resume-row">
+            <img src="images/foundersboost.webp" width=75px height=75px>
+            <div class="resume-col">
+                <h3>Program Intern</h3>
+                <h4>FoundersBoost</h4>
+                <h5>Feb 2022 - Apr 2022</h5>
+                <p>&#8226; Helping pre-seed startups enter accelerators like Y Combinator and Techstars<br>&#8226; Liaising between company leadership and media outlets like Vancouver Tech Journal and
+BCBusiness </p>
+            </div>
+        </div>
+        <div class="resume-row">
+            <img src="images/jayscare.jpeg" width=75px height=75px>
+            <div class="resume-col">
+                <h3>Rookie League Program Leader</h3>
+                <h4>Jays Care Foundation</h4>
+                <h5>Jun 2019 - Aug 2021</h5>
+                <p>&#8226; 2021 Rookie League MVP<br>&#8226; Rookie League summer camp leader at 3 community housing locations in Scarborough<br>&#8226; Worked with at-risk youth aged 6-12 for 15 weeks<br>&#8226; Taught important life skills and promoted self-esteem through sport<br>&#8226; Adapted to the unexpected and unplanned<br>&#8226; Trained in WHMIS, Personal Emergency Preparedness, Emergency Management, Fire
+Prevention and Security Awareness</p>
+            </div>
+        </div>
+           <div class="resume-row">
+            <img src="images/police.jpeg" width=75px height=75px>
+            <div class="resume-col">
+                <h3>Youth in Policing</h3>
+                <h4>Toronto Police Service</h4>
+                <h5>Feb 2020 - Jul 2021</h5>
+                <p><br>&#8226; Learned about the Toronto Police's approach to the use of force, arrest procedures, acts of terror response, mental health events, human trafficking, homicide investigations, recruiting and more<br>&#8226; Consulted on the renaming of a Toronto Police unit<br>&#8226; Educated the community on safe practices<br>&#8226; Communicated with the community on local policing initiatives<br>&#8226; Provided feedback to officers on police initiatives<br>&#8226; Presented informative presentations regarding racial communities in Toronto<br>&#8226; Created a PSA video on mental health and cyberbullying</p>
+            </div>
+        </div>
+    </section>
+    
+    <!Footer>
+    <section class="footer">
+        <h4>About Mihan</h4>
+        <p>Mihan is an engineering student at McMaster University<br>who is passionate about creative problem solving and using technology for good</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/mihan/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/mihan-b" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:mihanlbandara@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p>Made by Mihan Bandara</p>
+    </section>
+    <script>
+        let scroll1 = document.querySelector("#scroll1");
+        let techlink = document.querySelector("#techlink");
+        
+        scroll1.addEventListener("click",navigatetech,false);
+        
+        function navigatetech(e){
+            techlink.scrollIntoView();   
+        }
+    </script>
+    
+</body>   
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

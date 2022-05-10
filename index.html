@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Mihan's Website</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/headshot_circ.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b3979c345.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header1">
+       <nav>
+           <a href="index.html"><img src="images/headshot.png" alt=""></a>  
+           <div class="nav-links" id="top">
+               <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+               </ul>
+           </div>
+       </nav>
+    <div class="text-box">
+        <h1>Mihan Bandara</h1>
+        <p>Engineering student at McMaster University<br>Passionate about creative problem solving and using technology for good. </p>
+        <a id=scroll href="javascript:void(0)" class="hero-btn">Learn more</a>
+    </div>     
+    </section>
+    
+    <!About>
+    <section id="aboutlink" class="about">
+        <h1>About Me</h1>
+        <p>Hi, I'm Mihan, an engineering student at McMaster University in Hamilton Ontario. I am an extremely motivated individual who has a diverse resume of experiences in various fields.</p> 
+        <p>Last summer I was employed at the JaysCare Foundation as a program leader, where I won the MVP award as one of the youngest employees there. I have also worked at the Toronto Police Service as a policing student for 8 months. These jobs required a high level of professionalism and adaptability to a variety of challenges. My unique skill set comes from this range of experience as well as my desire to learn as much as I can from each experience.</p>
+        <p>Recently I have been dedicating most of my free time to a range of competitions and personal projects like this website. I recently finished competing the finals of the TD Sustainable Insurance challenge and finished representing McMaster at the Ontario Engineering Competition after winning at the McMaster Engineering Competition. I also competed in a hackathon called Deltahacks and the U21 RISE Showcase. Some personal projects I'm working on include my website EduPy which provides free and accessible beginners computing lessons and an app called Eng II Estimator.</p>
+        <p>This website provides a summary of my skills, workplace experience, and personal projects.</p>
+    </section>
+    
+    <!Call to action>
+    <section class="cta">
+        <h1>Get in touch</h1>
+        <a href="mailto:mihanlbandara@gmail.com" class="cta-btn">Contact</a>
+    </section>
+    
+    
+    <!Footer>
+    <section class="footer">
+        <div class="icons">
+            <a id="totop" href="javascript:void(0)"><i class="fa-solid fa-angles-up icon-4x"></i></a>
+        </div>
+        <h4>About Mihan</h4>
+        <p>Mihan is an engineering student at McMaster University<br>who is passionate about creative problem solving and using technology for good</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/mihan/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/mihan-b" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:mihanlbandara@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p>Made by Mihan Bandara</p>
+    </section>
+    <script>
+        let scroll = document.querySelector("#scroll");
+        let aboutlink = document.querySelector("#aboutlink");
+        
+        scroll.addEventListener("click",navigateabout,false);
+        
+        function navigateabout(e){
+            aboutlink.scrollIntoView();   
+        }
+    </script>
+    <script>
+        let totop = document.querySelector("#totop");
+        let top = document.querySelector("#top");
+        
+        totop.addEventListener("click",navigatetop,false);
+        
+        function navigatetop(e){
+            top.scrollIntoView();   
+        }</script>
+
+    
+</body>   
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

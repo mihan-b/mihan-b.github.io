@@ -1,0 +1,26 @@
+<div class="skills-timer">
+    <div class="timer">
+       <div class="container-month">
+           <h4 class="month" id="months1">Time</h4>
+           <h4>Months</h4>
+       </div>
+       <div class="container-day">
+         <h4 class="day" id="days1">Time</h4>
+         <h4>Days</h4>
+     </div> 
+     <script>
+     countDate1 = new Date('January 24, 2022 12:00:00').getTime();
+     const now1 = new Date().getTime();
+     const gap1 = now1 - countDate1;
+         
+     const day1 = 8.64e+7;
+     const month1 = 2.628e+9;
+
+     const textMonth1 = Math.floor(gap1 / month1);
+     const textDay1 = Math.floor((gap1 % month1) / day1);
+
+     document.getElementById("months1").innerHTML = textMonth1;
+     document.getElementById("days1").innerHTML = textDay1;
+     </script> 
+    </div> 
+</div>

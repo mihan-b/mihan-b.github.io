@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Mihan's Website</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/headshot_circ.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b3979c345.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header2">
+       <nav>
+           <a href="index.html"><img src="images/headshot.png" alt=""></a>  
+           <div class="nav-links">
+               <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+               </ul>
+           </div>
+       </nav>
+        <div class="text-box">
+            <h1>Skills</h1>
+            <p>Technical and interpersonal skills developed through experience</p>
+            <div class="icons">
+                <a id="scroll1" href="javascript:void(0)"><i class="fa-solid fa-angles-down icon-4x"></i></a>
+            </div>
+        </div>
+    </section> 
+    
+    <!About>
+    <section class="about" id="techlink">   
+        <h2>Technical Skills</h2>
+        <div class="row">
+            <div class="about-col">
+                <h3>Python</h3>
+                <img src="images/python.png" alt="Python logo" style="height: 50px">
+                <p>Python is a high-level general purpose programming language. I used python to complete 10 coding assignments with an average grade of over 97%. My team and I used Python to create "AutoClip", a program that increased productvity and reduced typing strain by creating shortcuts for words or phrases. I also created "Eng II Estimator" as my submissions for the Deltahacks hackathon and "EduPy" for the U21 Rise Showcase. </p>
+                <div class="skills-timer">
+                    <div class="timer">
+                       <div class="container-month">
+                           <h4 class="month" id="months1">Time</h4>
+                           <h4>Months</h4>
+                       </div>
+                       <div class="container-day">
+                         <h4 class="day" id="days1">Time</h4>
+                         <h4>Days</h4>
+                     </div> 
+                     <script>
+                     countDate1 = new Date('October 4, 2021 9:00:00').getTime();
+                     const now1 = new Date().getTime();
+                     const gap1 = now1 - countDate1;
+                         
+                     const day1 = 8.64e+7;
+                     const month1 = 2.628e+9;
+                
+                     const textMonth1 = Math.floor(gap1 / month1);
+                     const textDay1 = Math.floor((gap1 % month1) / day1);
+                
+                     document.getElementById("months1").innerHTML = textMonth1;
+                     document.getElementById("days1").innerHTML = textDay1;
+                     </script> 
+                    </div> 
+                </div>
+            </div>
+            <div class="about-col">
+                <h3>HTML, CSS, JavaScript</h3>
+                <img src="images/html_css_js.png" alt="HTML, CSSm and JS logos" style="height: 50px">
+                <p>HyperText Markup Language is the language used to create the structure of a website and its content. Cascading Style Sheets are used to style the presentation of a website. JavaScript is used to customize website behaviour. I learned HTML and CSS using books authored by Mike McGrath.</p>
+                <p>I created this website using all 3 languages. JavaScript is used for behaviours such as the smooth scrolling links and the live timer below.</p>
+                <div class="skills-timer">
+                    <div class="timer">
+                       <div class="container-month">
+                           <h4 class="month" id="months2">Time</h4>
+                           <h4>Months</h4>
+                       </div>
+                       <div class="container-day">
+                         <h4 class="day" id="days2">Time</h4>
+                         <h4>Days</h4>
+                     </div> 
+                     <script>
+                     countDate2 = new Date('April 26, 2022 17:00:00').getTime();
+                     const now2 = new Date().getTime();
+                     const gap2 = now2 - countDate2;
+                         
+                     const day2 = 8.64e+7;
+                     const month2 = 2.628e+9;
+                
+                     const textMonth2 = Math.floor(gap2 / month2);
+                     const textDay2 = Math.floor((gap2 % month2) / day2);
+                
+                     document.getElementById("months2").innerHTML = textMonth2;
+                     document.getElementById("days2").innerHTML = textDay2;
+                     </script> 
+                    </div> 
+                </div>
+            </div>
+            <div class="about-col">
+                <h3>SQL/MongoDB</h3>
+                <img src="images/database.png" alt="Database symbol" style="height: 50px">
+                <p>Structured Query Language is used to manage large relational databases. NoSQL languages like MongoDB take a modern and flexible approach to do the same. I learned SQLite and MongoDB through the McMaster Research institute where I received a microcredit for course completion.</p>
+                <div class="skills-timer">
+                    <div class="timer">
+                       <div class="container-month">
+                           <h4 class="month" id="months3">Time</h4>
+                           <h4>Months</h4>
+                       </div>
+                       <div class="container-day">
+                         <h4 class="day" id="days3">Time</h4>
+                         <h4>Days</h4>
+                     </div> 
+                     <script>
+                     countDate3 = new Date('April 2, 2022 00:00:00').getTime();
+                     const now3 = new Date().getTime();
+                     const gap3 = now3 - countDate3;
+                         
+                     const day3 = 8.64e+7;
+                     const month3 = 2.628e+9;
+                
+                     const textMonth3 = Math.floor(gap3 / month3);
+                     const textDay3 = Math.floor((gap3 % month3 / day3));
+                
+                     document.getElementById("months3").innerHTML = textMonth3;
+                     document.getElementById("days3").innerHTML = textDay3;
+                     </script> 
+                    </div> 
+                </div>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="about-col">
+                <h3>MATLAB</h3>
+                <img src="images/matlab.png" alt="MATLAB logo" style="height: 50px">
+                <p>MATLAB is a programming and computing language used for data analysis, graphing, and manipulation. MATLAB is exceptionally useful for the complex matrix manipulations required in linear algebra. I used MATLAB to complete 5 assignments with an average grade of 97%. </p>
+                <div class="skills-timer">
+                    <div class="timer">
+                       <div class="container-month">
+                           <h4 class="month" id="months4">Time</h4>
+                           <h4>Months</h4>
+                       </div>
+                       <div class="container-day">
+                         <h4 class="day" id="days4">Time</h4>
+                         <h4>Days</h4>
+                     </div> 
+                     <script>
+                     countDate4 = new Date('January 28, 2022 18:00:00').getTime();
+                     const now4 = new Date().getTime();
+                     const gap4 = now4 - countDate4;
+                         
+                     const day4 = 8.64e+7;
+                     const month4 = 2.628e+9;
+                
+                     const textMonth4 = Math.floor(gap4 / month4);
+                     const textDay4 = Math.floor((gap4 % month4) / day4);
+                
+                     document.getElementById("months4").innerHTML = textMonth4;
+                     document.getElementById("days4").innerHTML = textDay4;
+                     </script> 
+                    </div> 
+                </div>
+            </div>
+            <div class="about-col">
+                <h3>Autodesk Inventor</h3>
+                <img src="images/inventor.png" alt="Autodesk Inventor logo" style="height: 50px">
+                <p>Autodesk Inventor is a Computer-Aided Design (CAD) program used for 3D mechanical design, simulation, visualization, and documentation. I used Inventor to complete 7 assignments with an average grade of over 97%. My team and I used Inventor to design a wind turbine and a waste lifting mechanisim for an automated drone. Our mechanism was powered by a stepper motor and was fabricated using a 3D printer and laser cutter.</p>
+                <div class="skills-timer">
+                    <div class="timer">
+                       <div class="container-month">
+                           <h4 class="month" id="months5">Time</h4>
+                           <h4>Months</h4>
+                       </div>
+                       <div class="container-day">
+                         <h4 class="day" id="days5">Time</h4>
+                         <h4>Days</h4>
+                     </div> 
+                     <script>
+                     countDate5 = new Date('September 16, 2021 09:00:00').getTime();
+                     const now5 = new Date().getTime();
+                     const gap5 = now5 - countDate5;
+                         
+                     const day5 = 8.64e+7;
+                     const month5 = 2.628e+9;
+                
+                     const textMonth5 = Math.floor(gap5 / month5);
+                     const textDay5 = Math.floor((gap5 % month5) / day5);
+                
+                     document.getElementById("months5").innerHTML = textMonth5;
+                     document.getElementById("days5").innerHTML = textDay5;
+                     </script> 
+                    </div> 
+                </div>
+            </div>
+            <div class="about-col">
+                <h3>Mastercam</h3>
+                <img src="images/mastercam.png" alt="Mastercam logo" style="height: 50px">
+                <p>Mastercam is a Computer-Aided Manufacturing (CAM) program used to manufacture parts. Mastercam is ued to create computer models of objects and guides CNC machines to create the object. I learned how to use Mastercam through the McMaster Research institute where I received a microcredit for course completion.</p>
+                <div class="skills-timer">
+                    <div class="timer">
+                       <div class="container-month">
+                           <h4 class="month" id="months6">Time</h4>
+                           <h4>Months</h4>
+                       </div>
+                       <div class="container-day">
+                         <h4 class="day" id="days6">Time</h4>
+                         <h4>Days</h4>
+                     </div> 
+                     <script>
+                     countDate6 = new Date('May 1 2022 00:00:00').getTime();
+                     const now6 = new Date().getTime();
+                     const gap6 = now1 - countDate6;
+                         
+                     const day6 = 8.64e+7;
+                     const month6 = 2.628e+9;
+                
+                     const textMonth6 = Math.floor(gap6 / month6);
+                     const textDay6 = Math.floor((gap6 % month6) / day6);
+                
+                     document.getElementById("months6").innerHTML = textMonth6;
+                     document.getElementById("days6").innerHTML = textDay6;
+                     </script> 
+                    </div> 
+                </div>
+            </div> 
+        </div>
+        <h2>Interpersonal Skills</h2>
+        <div class="row">
+            <div class="about-col">
+                <h3>Teamwork/Leadership</h3>
+                <i class="fa-solid fa-people-group"></i>
+                <p>Teamwork is essential to success in the professional environment. As a baseball player, my teamwork skills have been developing from a young age. As a leader on the field I know how to play to my teammates strengths. I know how to push them to be at their best while being the supportive leader they need.</p>     
+                <p>This leadership and teammwork ability translated to my role at JaysCare Foundation where I found myself in a leadership role as the youngest employee at my location.I further developed my leadership abilities as the McMaster Engineering delegate at the Conference on Advocacy and Leadership in Engineering, and I continue to look for leadership opportunities</p>
+            </div>
+            <div class="about-col">
+                <h3>Communication</h3>
+                <i class="fa-solid fa-comment"></i>
+                <p>HyperText Markup Language is the language used to create the structure of a website and its content. Cascading Style Sheets are used to style the presentation of a website. This website is created from scratch using CSS and HTML as my first web page project. </p>
+            </div>
+            <div class="about-col">
+                <h3>Professionalism</h3>
+                <i class="fa-solid fa-handshake"></i>
+                <p>Working for the Toronto Police Service taught me the importance of professionalism. While I represented the police service, I had to present myself with the utmost professionalism at all times. Professionalism is exhibited through punctuality, appearance, and communication.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!Footer>
+    <section class="footer">
+        <h4>About Mihan</h4>
+        <p>Mihan is an engineering student at McMaster University<br>who is passionate about creative problem solving and using technology for good</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/mihan/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/mihan-b" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:mihanlbandara@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p>Made by Mihan Bandara</p>
+    </section>
+    <script>
+        let scroll1 = document.querySelector("#scroll1");
+        let techlink = document.querySelector("#techlink");
+        
+        scroll1.addEventListener("click",navigatetech,false);
+        
+        function navigatetech(e){
+            techlink.scrollIntoView();   
+        }
+    </script>
+    
+</body>   
+</html>
